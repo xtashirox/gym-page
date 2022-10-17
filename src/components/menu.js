@@ -1,27 +1,43 @@
-import React from "react";
-import '../CSS/menu.css';
+import React, {useState} from "react";
+import '../CSS/index.css';
+import Burguer from "./boton";
 
 export default function Menu() {
+    const [clicked , setClicked] = useState(false);
+    const handleClick = () =>{
+        setClicked(!clicked);
+    }
 
     return(
+        
+        <>
+            <nav>
 
-        <nav>
+                <div className="tittle">
+                    <h2>Gymnasio <span>bla</span></h2> 
+                </div>
 
-            <div>
-                <h1>Gymnasio</h1>
-            </div>
+                <div className= {`links ${clicked ? 'active' : ''}` } >
 
-            <table>
+                    
+                        <a href="#" >Home</a>
+                        <a href="#" >About Us</a>
+                        <a href="#" >Service</a>
+                        <a href="#" >Prices</a>
+                    
 
-                <tr>
-                    <td><a href="#"><p>Home</p></a></td>
-                    <td><a href="#"><p>About Us</p></a></td>
-                    <td><a href="#"><p>Service</p></a></td>
-                    <td><a href="#"><p>Prices</p></a></td>
-                </tr>
+                </div> 
+                <div className="burguer">
+                    <Burguer clicked = {clicked} handleClick = {handleClick}/>
+                </div>
+
+                <div className= {`initial ${clicked ? 'active' : ''}` } ></div>
+                
+            </nav>
             
-            </table> 
-        </nav>
+        
+        
+        </>
 
     );
     

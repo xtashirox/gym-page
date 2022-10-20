@@ -1,16 +1,23 @@
 $fondo : #333;
 
 nav{
-
+    
+    top: 0;
+    left: 0;
     padding: .4rem;
     background-color: $fondo;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 3rem;
 
     
 
     .links{
+        font-family: 'Pacifico', cursive;
         position: absolute;
         top : -700px;
         left : -2000px;
@@ -42,7 +49,7 @@ nav{
 
         width: 100%;
         display: block;
-        position: absolute;
+        position: fixed;
         margin-left: auto;
         margin-right: auto;
         top: 30%;
@@ -63,7 +70,8 @@ nav{
 
     
 
-    h2{
+    h1{
+        font-family: 'Permanent Marker', cursive;
         color: white;
         font-weight: 400;
         span{
@@ -90,7 +98,7 @@ nav{
 
     .initial{
 
-        position: absolute;
+        position: fixed;
         background:#333;
         top: -700px;
         left: -5000px;

@@ -148,8 +148,36 @@ nav .initial.active {
   top: 706px;
 }
 
+.container {
+  border: 2px solid;
+  margin: auto;
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.container .photo {
+  width: 400px;
+  margin-left: -10px;
+}
+.container article {
+  width: 60%;
+  margin-right: 100px;
+}
+.container article h3 {
+  color: #f7aa02;
+  font-family: "Fredoka One", cursive;
+  font-size: 3rem;
+}
+.container article p {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+}
+
 body {
-  margin: 0;
   padding: 0;
   align-items: center;
 }

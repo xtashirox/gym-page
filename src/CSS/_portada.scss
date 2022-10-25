@@ -3,9 +3,9 @@ $yellow : #f7aa02;
 
     
     width: 80%;
-    height: 850px;
+    height: 53.125rem;
     padding: 0;
-    margin-top: 60.8px;
+    margin-top: 3.8rem;
     box-sizing: border-box;
     
     
@@ -13,11 +13,11 @@ $yellow : #f7aa02;
 
     .letter{
         position: absolute;
-        right: 70px;
-        top: 300px;
+        right: 4.375rem;
+        top: 18.75rem;
         box-sizing: border-box;
         width: 90rem;
-        height: 100px;
+        height: 6.25rem;
         text-align: right;
     }
 
@@ -57,8 +57,8 @@ $yellow : #f7aa02;
     .pre-button{
         color: white;
         position: absolute;
-        right: 600px;
-        top: 680px;
+        right: 37.5rem;
+        top: 42.5rem;
         font-family: 'Kanit', sans-serif;
         font-size: 2rem;
     }
@@ -66,10 +66,10 @@ $yellow : #f7aa02;
         
         background-color: #f7aa02;
         color: antiquewhite;
-        font-size: 50px;
+        font-size: 3.125rem;
         position: absolute;
-        right: 220px;
-        top: 706px;
+        right: 13.75rem;
+        top: 44.125rem;
     }
 
 

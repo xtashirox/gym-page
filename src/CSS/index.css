@@ -239,6 +239,7 @@ nav .initial.active {
   text-align: justify;
 }
 .container-options .boton {
+  font-family: "Kanit", sans-serif;
   background-color: #f7aa02;
   color: antiquewhite;
   font-size: 2rem;

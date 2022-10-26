@@ -7,6 +7,7 @@ import Foto1 from "./img/foto1.jpg"
 import Foto2 from "./img/foto2.jpg"
 import Foto3 from "./img/foto3.jpg"
 import Intro from './components/intro';
+import Services from "./components/services"
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       <Components photo = {Foto1} tittle = {tittle[1]} paragrapho1 = {smart} />
       <Components photo = {Foto2} tittle = {tittle[2]} paragrapho1 = {muscle} />
       <Components photo = {Foto3} tittle = {tittle[3]} paragrapho1 = {cardiopagrapho} />
+      <Services/>
+      <footer>
+        <p>All rights reserved.</p>
+      </footer>
 
     </Fragment>
   );

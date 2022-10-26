@@ -4,6 +4,8 @@ import Foto2 from "../img/foto2.jpg"
 import Foto3 from "../img/foto3.jpg"
 import "../CSS/index.css"
 
+
+
 function Intro() {
 
     return(

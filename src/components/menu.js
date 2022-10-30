@@ -14,7 +14,7 @@ export default function Menu() {
             <nav>
 
                 <div className="tittle">
-                    <h1>Gymnasio <span>bla</span></h1> 
+                    <h1>Smart <span>Gym</span></h1> 
                 </div>
 
                 <div className= {`links ${clicked ? 'active' : ''}` } >

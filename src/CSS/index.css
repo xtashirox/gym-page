@@ -26,6 +26,10 @@ nav .links a {
   font-size: 2rem;
   display: block;
 }
+nav .links a:hover {
+  color: #f7aa02;
+  transition: all 0.7s ease;
+}
 @media (min-width: 768px) {
   nav .links {
     position: initial;

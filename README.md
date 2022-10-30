@@ -2,7 +2,7 @@
 
 ## Introduction.
 
-This page I show you what I can do with basic knowledge  in react, CSS3, HTML5 and another tecnology.
+This page I show you what I can do with basic knowledge  in react, CSS3, HTML5 and other tecnology.
 
 ## Instructions.
 
